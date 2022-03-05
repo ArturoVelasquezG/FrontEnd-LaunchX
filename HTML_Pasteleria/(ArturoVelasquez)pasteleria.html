@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <img src="./IMAGENES/(ArturoVelasquez)_PasteleriaLogo.png" alt="logo CosmoPastel" width="360px" height="240px">
+    <title>CosmoPastel</title>
+</head>
+
+<body>
+    <h1>Cosmo pastel</h1>
+    <P>El sabor que te lleva a otro mundo</P>
+    <br><hr>
+    <h2>Pasteles</h2>
+
+    <table>
+        <tr>
+            <th>Pasteles</th>
+            <th>Rebanada</th>
+            <th>Completo</th>
+        </tr>
+        <tr>
+            <td><dl>
+                    <dt>Nube de Sagitario</dt>
+                    <dd>-pastel esponjoso de 3 leches, con chispas de colores</dd><br>
+                    <dt>Pastel Jupiter</dt>
+                    <dd>-pastel hecho de merengue</dd><br>
+                    <dt>Ruleta zodiacal</dt>
+                    <dd>-docena de pastelillos rellenos de chocolate y fresa</dd><br>
+                    <dt>Sistema Solar</dt>
+                    <dd>-pastel de merengue con frutas</dd><br>
+                    <dt>Alien</dt>
+                    <dd>-pasteles con toques citricos</dd><br>
+                </dl>
+            </td>
+
+            <td><dl>
+                    <dt>***********$20</dt><br><br>
+                    <dt>***********$23</dt><br><br>
+                    <dt>***********$23</dt><br><br>
+                    <dt>***********$26</dt><br><br>
+                    <dt>***********$25</dt><br><br>
+                </dl>
+            </td>
+
+            <td><dl>
+                    <dt>***********$230</dt><br><br>
+                    <dt>***********$265</dt><br><br>
+                    <dt>***********$245</dt><br><br>
+                    <dt>***********$315</dt><br><br>
+                    <dt>***********$317</dt><br><br>
+                </dl>
+            </td>
+            
+        </tr>
+    </table><br><br><hr>
+    <p>Realiza tu orden<br></p>
+    <label for="pastel">eliga su tipo de pastel</label><br>
+    <input list="pastel">
+    <datalist id="pastel">
+        <option value="Nube de Sagitario">
+        <option value="Pastel Jupiter">
+        <option value="Ruleta Zodiacal">
+        <option value="Sistema Solar">
+        <option value="Alien">
+    </datalist>
+    <br><br>
+
+    <p>¿Que llevara el pastel?<br>personalizalo 😁</p><br>
+    <table>
+        <tr>
+            <th>Frutras</th>
+            <th>Color del merengue</th>
+            <th>Chispas</th>
+            <th>chocolate</th>
+        </tr>
+        
+        <tr>
+            <td><dl>
+                <dt>
+                    <input type="checkbox" id="fruta1" name="frutas" value="fruta1">
+                    <label for="fruta1">fresa</label>
+                </dt>
+                <dt>
+                    <input type="checkbox" id="fruta2" name="frutas" value="fruta2">
+                    <label for="fruta2">mango</label>
+                </dt>
+                <dt>
+                    <input type="checkbox" id="fruta3" name="frutas" value="fruta3">
+                    <label for="fruta3">mora azul</label>
+                </dt>
+                <dt>
+                    <input type="checkbox" id="fruta4" name="frutas" value="fruta4">
+                    <label for="fruta4">kiwi</label>
+                </dt>
+                <dt>
+                    <input type="checkbox" id="fruta5" name="frutas" value="fruta5">
+                    <label for="fruta5">mora azul</label>
+                </dt>
+            </dl></td>
+
+            <td><dl>
+                <dt>
+                    <input type="checkbox" id="meren1" name="merengues" value="meren1">
+                    <label for="meren1">azul cosmos</label>
+                </dt>
+                <dt>
+                    <input type="checkbox" id="meren2" name="merengues" value="meren2">
+                    <label for="meren2">verde alien</label>
+                </dt>
+                <dt>
+                    <input type="checkbox" id="meren3" name="merengues" value="meren3">
+                    <label for="meren3">amarillo galactico</label>
+                </dt>
+                <dt>
+                    <input type="checkbox" id="meren4" name="merengues" value="meren4">
+                    <label for="meren4">chocolate misterium</label>
+                </dt>
+            </dl></td>
+
+            <td><dl>
+                <dt>
+                    <input type="checkbox" id="chisp1" name="chispas" value="chisp1">
+                    <label for="chisp1">multicolor</label>
+                </dt>
+                <dt>
+                    <input type="checkbox" id="chisp2" name="chispas" value="chisp2">
+                    <label for="chisp2">Bicolores</label>
+                </dt>
+                <dt>
+                    <input type="checkbox" id="chisp3" name="chispas" value="chisp3">
+                    <label for="chisp3">cereales</label>
+                </dt>
+                <dt>
+                    <input type="checkbox" id="chisp4" name="chispas" value="chisp4">
+                    <label for="chisp4">ninguno</label>
+                </dt>                    
+            </dl></td>
+
+            <td><dl>
+                <dt>
+                    <input type="checkbox" name="si" id="Yes" value="yes">
+                    <label for="Yes">Si</label><br>
+                    <input type="checkbox" name="no" id="Noo" value="noo">
+                    <label for="Noo">No</label>
+                </dt>
+            </dl></td>
+        </tr>
+    </table> <br><hr>
+
+    <label for="adorno">¿desea algún adorno?</label>
+    <input list="adorno">
+    <datalist id="adorno">
+        <option value="Vela de cumpleaños(numerica)">
+        <option value="Vela de nave espacial">
+        <option value="estampado de personaje favorito">
+        <option value="Ninguno">
+    </datalist>
+    <p>si desea un estampado personalizado, nos puede enviar una foto<br>
+    (el estampado debe pedirlo con 5 diás de anticipo)</p>
+    <input type="file" name="img" id="image" multiple><br>
+    <p>deseas un estampado rapido aqui nuestras opciones</p>
+    <input list="estamp">
+    <datalist id="estamp">
+        <option value="astronauta">
+        <option value="cohete">
+        <option value="alien">
+        <option value="galaxia">
+    </datalist>
+    <br><br>
+    <hr>
+    <p>¿para que fecha lo desea?</p>
+    <input type="date" name="día" id="dia"><br><br>
+    <label for="Dirección">Agregue su dirección</label>
+    <input type="text" id="Dirección" name="Dirección">
+    <br><br>
+    <label for="Tel1">Agregue su numero</label>
+    <input type="tel" name="Tel1" id="Tel1"maxlength=10>
+    <br>
+    <label for="Tel2">Agregue un segundo numero (opcional)</label>
+    <input type="tel" name="Tel2" id="Tel2"maxlength=10>
+    <br><br>
+
+    <input type="button" id="boton1" name="boton1" value="Enviar" 
+    onclick="alert('Tu pedido ha sido recibido, recuerda el estampado personalizado\ndeberá pedirse con 5 días de anticipo');"><br><br>
+
+</body>
+
+</html>
